@@ -1,0 +1,45 @@
+#wpadminbar .theme-switcher-active > a {
+	font-weight: bold;
+}
+
+@media screen and (max-width: 782px) {
+
+	#wpadminbar .ab-item:not(.menupop) {
+		display: inline-block !important;
+	}
+
+	#wpadminbar #wp-admin-bar-theme_switcher_theme_switcher {
+		background: none !important;
+		display: block !important;
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+
+	#wpadminbar #wp-admin-bar-theme_switcher_theme_switcher > .ab-item {
+		color: #a7aaad;
+		height: 46px;
+		line-height: 3.28571428;
+		overflow: hidden;
+		padding: 0;
+		position: relative;
+		text-indent: 100%;
+		white-space: nowrap;
+		width: 52px;
+	}
+
+	#wpadminbar #wp-admin-bar-theme_switcher_theme_switcher > .ab-item::before {
+		content: '\f100';
+		display: block;
+		font: normal 32px/1 dashicons;
+		height: 20px;
+		left: 0;
+		position: absolute;
+		speak: never;
+		text-align: center;
+		text-indent: 0;
+		top: 7px;
+		width: 52px;
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+	}
+}
