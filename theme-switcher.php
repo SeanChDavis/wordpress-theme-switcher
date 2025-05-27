@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: Theme Switcher
- * Plugin URI: https://crispydiv.com
+ * Plugin URI: https://seanchdavis.com
  * Description: Without preview, switch WordPress themes from the front-end Admin Bar. Best used in development.
  * Version: 1.0.0
  * Author: Sean Davis
- * Author URI: https://crispydiv.com/
+ * Author URI: https://seanchdavis.com/
  * License: GPL2
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: theme-switcher
